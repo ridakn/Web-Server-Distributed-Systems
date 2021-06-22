@@ -1,10 +1,10 @@
 # Web-Server-Distributed-Systems
 Built a functional web server for a distributed systems project.
 
-# High-level description of the assignment:
+## High-level description of the assignment:
 The assignment was to build a simple web server that listens on a port for incoming client requests, accepts the request, and allows a web browser to connect to the web server and retrieve the contents of the SCU homepage that was saved in the server. 
 
-# High-level description of my program: 
+## High-level description of my program: 
 The command line has two arguments: the path to the document root and the port number. 
 
 Firstly, the program creates a socket on the port and starts listening. A new thread is created to handle the request. 
