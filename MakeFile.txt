@@ -1,0 +1,10 @@
+Compiling and running instructions
+
+On the terminal execute the following:
+
+For compiling: javac MyServer.java
+
+For running: java MyServer -document_root PATH -port PORT_NUMBER
+
+PATH: path to the document root where files are stored
+PORT_NUMBER: port number that you want to use, this can be between 8000 and 9999.
